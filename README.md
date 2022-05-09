@@ -4,7 +4,7 @@ This is my attempt at understanding how to automate the build process using Make
 
 ## Context 
 
-When working with IDEs like Visual Studio or Keil or IAR Embedded Workbench, it is easy to write and deploy code. With one click of a button, your code is compiled and ready to be executed. However, these IDEs tend to hide certain details of the compilation process. To have a deeper idea of what goes on "behind the scenes" of IDEs, it is helpful to try to compile code by invoking the compiler from the command line. 
+When working with IDEs like Visual Studio or Keil or IAR Embedded Workbench, it is easy to write and deploy code. With one click of a button, your code is compiled and ready to be executed. However, these IDEs tend to hide certain details of the compilation process. To have a deeper idea of what goes on "behind the scenes" of IDEs, it is helpful to try to compile code by invoking the compiler from the command line (aka terminal). 
 
 For example, supposing that we have a source file called source.c and we wish to compile this source file into a binary file, we would perform the following command (the compiler used is assumed to be GCC):
 
