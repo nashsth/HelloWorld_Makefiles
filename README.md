@@ -13,7 +13,7 @@ gcc source.c -o source
 Once you write this line, the compiler is invoked and you have an executable compiled from the source file specified. However, if you want to make any changes to your source file, you'd have to write this line again. For projects which only have a small number of source files, this isn't too bad. However, if your project is more complex, involving multiple source files and header files (collectively called "prerequisites" in the parlance of Makefiles), then it becomes unfeasible to invoke the compiler each time. Keeping track of dependencies between the source files and header files quickly becomes a nightmare. 
 
 
-This is where Makefiles come in. They allow us to "automate" the build process. Automating the build process simply means that you don't have to invoke the compiler in its gory details. Instead, all you write is "make" in the terminal, and GNU Make invokes the compiler for you. To learn more about Makefiles, consult the GNU Make manual found here: https://www.gnu.org/software/make/manual/make.html
+This is where Makefiles come in. They allow us to "automate" the build process. Automating the build process simply means that you don't have to invoke the compiler in its gory details. Instead, all you write is "make" in the terminal, and GNU Make invokes the compiler for you. To learn more about Makefiles, consult the [GNU Make manual.] (https://www.gnu.org/software/make/manual/make.html)
 
 There are also good tutorials found here: 
 1) http://nuclear.mutantstargoat.com/articles/make/
