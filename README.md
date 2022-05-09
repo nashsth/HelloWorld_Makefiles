@@ -18,7 +18,7 @@ There are also good tutorials found here:
 2) https://cs.colby.edu/maxwell/courses/tutorials/maketutor/
 
 
-#TL;DR
+# TL;DR
 
 You will find three directories in this repo: HelloWorld_v1.0, HelloWorld_v2.0, and HelloWorld_v3.0. Each directory contains some C source files and header files. The following shows how each directory is organized:
 
