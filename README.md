@@ -1,6 +1,6 @@
 # HelloWorld_Makefiles
 
-This is my attempt at understanding how to automate the build process using Makefiles and GNU Make. 
+This is my attempt at understanding how to automate the build process using Makefiles and GNU Make. Scroll down to the TL;DR section to know the key differences in the Makefiles found in each directory. 
 
 When working with IDEs like Visual Studio or Keil or IAR Embedded Workbench, it is easy to write and deploy code. With one click of a button, your code is compiled and ready to be executed. However, these IDEs tend to hide certain details of the compilation process. To have a deeper idea of what goes on "behind the scenes" of IDEs, it is helpful to try to compile code by invoking the compiler from the command line. 
 
@@ -17,6 +17,8 @@ There are also good tutorials found here:
 1) http://nuclear.mutantstargoat.com/articles/make/
 2) https://cs.colby.edu/maxwell/courses/tutorials/maketutor/
 
+
+#TL;DR
 
 You will find three directories in this repo: HelloWorld_v1.0, HelloWorld_v2.0, and HelloWorld_v3.0. Each directory contains some C source files and header files. The following shows how each directory is organized:
 
