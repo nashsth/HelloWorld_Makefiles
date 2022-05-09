@@ -6,7 +6,7 @@ This is my attempt at understanding how to automate the build process using Make
 
 When working with IDEs like Visual Studio or Keil or IAR Embedded Workbench, it is easy to write and deploy code. With one click of a button, your code is compiled and ready to be executed. However, these IDEs tend to hide certain details of the compilation process. To have a deeper idea of what goes on "behind the scenes" of IDEs, it is helpful to try to compile code by invoking the compiler from the command line (aka terminal). 
 
-For example, supposing that we have a source file called source.c and we wish to compile this source file into a binary file, we would perform the following command (the compiler used is assumed to be GCC):
+For example, supposing that we have a source file called source.c and we wish to compile this source file into a binary file (aka an executable), we would perform the following command (the compiler used is assumed to be GCC):
 
 gcc source.c -o source
 
@@ -64,7 +64,7 @@ Now, in v1.0, all prerequisites are in the same directory. However, in v2.0 and 
 
 The following describes the capability of the makefiles found in each directory:
 
-1. **_HelloWorld_v1.0_**: Allows for build automation only when all prerequisites are in the same directory as the Makefile. You must list all object files the binary depends on, and furthermore you must specify the dependency of each object file. What this means is that you must explicitly write out all the object files you anticipate must be present, and furthermore, for EACH object file you note down, you must specify which source and header files that object file depends on. To learn more about object files, look up the compilation process, and what files are created during each step of the compilation process. 
+1. **_HelloWorld_v1.0_**: Allows for build automation only when all prerequisites are in the same directory as the Makefile. You must list all object files the binary file depends on, and furthermore you must specify the dependency of each object file. What this means is that you must explicitly write out all the object files which comprises the binary file, and furthermore, for EACH object file you note down, you must specify which source and header files that object file depends on. To learn more about object files, look up the compilation process, and what files are created during each step of the compilation process. 
 
 2. **_HelloWorld_v2.0_**: Allows for build automation even when you keep source and header files in separate directories relative to the Makefile. However, you must still make a list of object files you anticipate must be present, and specify the dependency of each object file. The process of keeping a list of object files is made automatic by the introduction of the pattern substitution feature of GNU Make, but the specification of the dependency on source/header files is still the same as from v1.0
 
