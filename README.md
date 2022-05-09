@@ -1,6 +1,6 @@
 # HelloWorld_Makefiles
 
-This is my attempt at understanding how to automate the build process using Makefiles and GNU Make. Scroll down to the "TL;DR: Makefile Descriptions" section to know the key differences in the Makefiles found in each directory. 
+This is my attempt at understanding how to automate the build process using Makefiles and GNU Make. Scroll down to the **"TL;DR: Makefile Descriptions"** section to know the key differences in the Makefiles found in each directory. 
 
 # Context 
 
