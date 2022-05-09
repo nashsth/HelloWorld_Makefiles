@@ -49,7 +49,7 @@ HelloWorld_v3.0/
             
         - Source/
             - hello_fn.c
-            -HelloWorld.c
+            - HelloWorld.c
             
         - Makefile
         
