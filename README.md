@@ -58,7 +58,7 @@ HelloWorld_v3.0/
         
 In all three versions, the idea is that HelloWorld.c contains the main() function, which calls the function hello_fn(). hello_fn() is declared in the header file hello.h and is defined in the source file hello_fn.c 
 
-Now, in v1.0, all prerequisites are in the same directory. However, in v2.0 and v3.0, the prerequisites are organized such that header files are kept in the Header/ subdirectory, and source files are kept in the Source/ subdirectory. Each consecutive directory contains a more advanced Makefile that allows more abstract and versatile functionality. 
+Now, in v1.0, all prerequisites are in the same directory. However, in v2.0 and v3.0, the prerequisites are organized such that header files are kept in the Header/ subdirectory, and source files are kept in the Source/ subdirectory. Each consecutive directory contains a more advanced Makefile that allows for more abstract and versatile functionality. 
 
 ## TL;DR: Makefile Descriptions
 
